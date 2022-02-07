@@ -1,0 +1,34 @@
+Plan for version 0.2
+- table i/o
+- buffer i/o
+- scheduling with ms
+- scheduling with clock
+
+Status:
+- regression test suite working for the schedule and transport tests
+- working on completing the regression test suite
+- 
+
+
+V0.2 need to do:
+- add the global control for turning off logging
+- add the table tests to the regression suite
+
+table-io-tests-1 is not working right (not all passing)
+
+
+Issues to solve for release
+- logging control?? have I done that yet??
+
+TODO: rename dict-get to dict-ref and dict-set to dict-set!
+
+- switch dict-get and dict-set over to dict-ref and dict-set! 
+  to be consistent with scheme naming (hash-table-ref hash-table-set!)
+  - short form will be dictr dicts  
+
+need to rename the transport stuff for consistency too,
+- ie transport-set-state to transport-state-set!
+
+
+ISSUES:
+- oops it looks like I never made vector-set-from-buffer! fuck
