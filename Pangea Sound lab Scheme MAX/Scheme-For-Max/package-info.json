@@ -1,0 +1,24 @@
+{
+    "author" : "Iain Duncan (S4M, S74), Bill Schottstaedt (s7)",
+    "description" : "Scheme-for-Max is an external that enables scripting and live coding Max using Scheme Lisp. It embeds the S7 Scheme interpreter from CCRMA. Tested on Max 8 with OSX and Windows 10. May work on Max 7, unknown.",
+    "homepatcher" : "s4m.maxhelp",
+    "max_version_max" : "none",
+    "max_version_min" : "8",
+    "name" : "Scheme-for-Max",
+    "os" : {
+        "macintosh" : {
+            "platform" : [ "x64" ],
+            "min_version" : "none"
+        },
+        "windows" : {
+            "platform" : [ "x64", "ia32" ],
+            "min_version" : "none"
+        }
+    },
+    "package_extra" : {
+        "copyright" : "Copyright (c) 2021 Iain Duncan. (Bill Schottstaedt, s7)"
+    },
+    "tags" : [ "scheme", "lisp", "S7", "live coding", "scripting"],
+    "version" : "0.3.0",
+    "website" : "https://github.com/iainctduncan/scheme-for-max"
+}
