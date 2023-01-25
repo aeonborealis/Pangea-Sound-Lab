@@ -1,0 +1,10 @@
+This script uses the scipy.io.wavfile library to read the sound file and write the 
+new glitched sound file. It uses the numpy.random.normal function to generate random 
+noise, which is then added to the sound data. It also uses a for loop with a range of
+1000 and the random library to scramble some parts of the sound by randomly swapping 
+samples, this way it creates the glitch effect. Finally, it adds the noise to the sound
+data and writes the glitched sound to a new file using the scipy.io.wavfile library.
+
+It is worth noting that the amount of noise added and the number of sample swaps can be
+adjusted to achieve different levels of glitch effect, also the output can vary depending
+on the type of sound file, and the settings used.
