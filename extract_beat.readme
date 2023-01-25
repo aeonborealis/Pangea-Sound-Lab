@@ -1,0 +1,9 @@
+This script uses the librosa library to analyze the audio file and extract the beat 
+frames using the librosa.beat.beat_track() function. The beat frames are then converted
+to MIDI format using the midiutil library and exported as a MIDI file named "beat.mid".
+The script assumes that the tempo of the beat is in beats per minute (BPM), and it adds
+a MIDI note on each beat frame, with the same pitch (36) and the same duration (0.25s) 
+and velocity (100) so you can adjust it according to your needs.
+Also, keep in mind that beat tracking is a complex task and the results may vary depending
+on the audio file, you may want to adjust the parameters of the librosa.beat.beat_track()
+function or use different methods to get better results.
