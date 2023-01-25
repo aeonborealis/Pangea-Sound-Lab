@@ -1,0 +1,12 @@
+This script uses the librosa library to load the audio file and the 
+librosa.effects.time_stretch() function to apply time stretching to the
+audio. The stretch factor is generated randomly using the random.uniform()
+function, this means that every time you run the script, the audio will
+be stretched by a different factor.
+The stretched audio is then exported as a new audio file named
+"stretched_audio.wav".
+Keep in mind that time stretching an audio file can result in a not-so-pleasant
+sound, is recommendable to use it with moderation and with the objective of
+create a complex rhythm and not to change the original essence of the song.
+Also, you can adjust the format of the output file to your preference, for 
+example, .mp3, .flac, etc.
