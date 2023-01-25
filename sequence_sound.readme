@@ -1,3 +1,8 @@
-This script uses the scipy.io.wavfile library to read the sound file and write the new sequenced sound file. It takes the file name of the sound file and the target BPM as inputs. Using the wavfile's read method, it reads the sound file and then calculates the number of samples per beat at the given BPM. Then it reshapes the data to have one beat worth of samples in each row, transpose it so that each column represents one beat, flatten the data back into a single array and then write the sequenced sound to a new file using the wavfile's write method.
+This script uses the scipy.io.wavfile library to read the sound file and write the new sequenced sound file. 
+It takes the file name of the sound file and the target BPM as inputs. Using the wavfile's read method, it 
+reads the sound file and then calculates the number of samples per beat at the given BPM. Then it reshapes 
+the data to have one beat worth of samples in each row, transpose it so that each column represents one beat, 
+flatten the data back into a single array and then write the sequenced sound to a new file using the wavfile's write method.
 
-It is worth noting that this script may not work correctly for all types of sound files, and it can produce unexpected results if the original sound file does not have a consistent tempo.
+It is worth noting that this script may not work correctly for all types of sound files, and it can produce unexpected 
+results if the original sound file does not have a consistent tempo.
