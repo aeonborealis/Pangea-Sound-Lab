@@ -1,0 +1,5 @@
+This script uses the librosa library to analyze the BPM and key of the two audio files, 
+and the pydub library to adjust the BPM and key of the audio files and export them as new audio files.
+It's important to keep in mind that the script assumes that the desired target BPM and key are the
+same for both audio files and that the desired target BPM and key are the BPM and key of the first
+audio file. Also, changing the BPM and key can result in a not-so-pleasant sound, is recommendable to use
