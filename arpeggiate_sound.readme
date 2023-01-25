@@ -1,0 +1,20 @@
+This script uses the scipy.io.wavfile library to read the sound file and write 
+the new arpeggiated sound file. It also uses the scipy.signal.resample function
+to match the original rate after the arpeggiation process. It takes the file name
+of the sound file, the target tempo in BPM and a scale array as inputs. Using the
+wavfile's read method, it reads the sound file, calculates the number of samples
+per beat at the given BPM, reshapes the data to have one beat worth of samples in
+each row, transpose it so that each column represents one beat. Then it creates an
+empty array to hold the arpeggiated sound, arpeggiate the sound by iterating through
+the columns and adding the samples to the arpeggiated array only if the note matches
+the scale array. Finally, it resamples the sound to match the original rate and writes
+the arpeggiated sound to a new file using the wavfile's write method.
+
+It is worth noting that this script may not work correctly for all types of sound files,
+and it can produce unexpected results if the original sound file does not have a consistent
+tempo. Also, you may want to experiment with different scales and tempos to achieve
+different results.
+
+
+
+
