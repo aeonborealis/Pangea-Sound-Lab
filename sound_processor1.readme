@@ -1,0 +1,9 @@
+This script uses the librosa library to load, scramble, time stretch, and arpeggiate
+the audio data, and the numpy and scipy libraries to concatenate and resample the 
+audio data. Also, note that this script uses the golden ratio (1.618) as the arpeggiation
+intervals, but you can use any other ratio.
+
+It is important to mention that this script is a proof of concept, it might not sound 
+nice, and it might not be useful in real-world applications, also the output file might
+be huge, and the script might take a long time to finish. This script uses randomness
+so the output will be different every time you run it.
